@@ -1,12 +1,47 @@
-# React + Vite
+# React Multi-Page App with React Router
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+This is a simple multi-page React application demonstrating routing, data fetching, and basic styling. The app includes a Home page, About page, User page (with dynamic routing), and a 404 NotFound page.
 
-Currently, two official plugins are available:
+## 🚀 Live Demo
+[View on GitHub Pages](https://<your-username>.github.io/<repo-name>/)
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+---
 
-## Expanding the ESLint configuration
+## 📁 Features
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+- 🏠 Home Page with welcome message
+- 📖 About Page describing the app
+- 👤 User Page that fetches user data from API
+- 🔀 Dynamic route support for `/user/:id`
+- ⚠️ 404 NotFound Page
+- 🌐 Navigation bar with active page highlighting
+- ⏳ Loading indicator while fetching
+- 🎨 Tailwind CSS styling
+
+---
+
+## 🔧 Technologies Used
+
+- React (Create React App)
+- React Router DOM
+- Tailwind CSS
+- JSONPlaceholder API
+- gh-pages for deployment
+
+---
+
+## 🛠️ Setup Instructions
+
+```bash
+# Clone the repo
+git clone https://github.com/<your-username>/<repo-name>.git
+cd <repo-name>
+
+# Install dependencies
+npm install
+
+# Start development server
+npm start
+
+# Deploy to GitHub Pages
+npm run deploy
